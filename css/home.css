@@ -1,0 +1,123 @@
+.header {
+    background-image: url("../Old_webpage/images/hokusai_dark.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#000;
+    /* background-color: transparent; */
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: #666;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    font-family: "Hiragino Mincho Pro";
+    color: #fff;
+  }
+
+  .description h3 {
+    font-family: "Hiragino Mincho Pro";
+    color: #fff;
+  }
+
+  .description p {
+    font-family: "Hiragino Mincho Pro";
+    color:#fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .description button {
+    border:1px solid #fff;
+    background:#fff;
+    border-radius: 0;
+    color:#000;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  }
+  .feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+  .features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+} 
+
+.page-footer {
+    background-color: #000;
+    color: #ccc;
+    padding: 30px 0 30px;
+    width: 100%;
+    position: absolute;
+  }
+  .pull-left{
+    float: left;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
