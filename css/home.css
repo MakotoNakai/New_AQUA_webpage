@@ -101,6 +101,7 @@ body {
   border: 1px solid #589b37;
   color: #fff;
   margin-top: 20px;
+  font-family: "Hiragino Mincho Pro";
 }
 .features .btn:hover {
   background-color: #333;
